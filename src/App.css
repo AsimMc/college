@@ -28,6 +28,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +36,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*----------Navbar-----------*/ 
+.navbar{
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
