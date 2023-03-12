@@ -1,0 +1,35 @@
+/*----------Navbar-----------*/ 
+/* .navbar{
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  } */
+  .links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }

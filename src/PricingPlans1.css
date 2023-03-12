@@ -1,0 +1,70 @@
+.pricing-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card .card-header {
+    background-color: #fff;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .pricing-card .card-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-card .card-header h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  
+  .pricing-card .card-body {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .pricing-card .card-body p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-card .card-footer {
+    background-color: #fff;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .pricing-card .card-footer button {
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .pricing-card .card-footer button:hover {
+    background-color: #554ddb;
+    cursor: pointer;
+  }
+
+  /* Kevin's Code */
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
